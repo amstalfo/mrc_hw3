@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="my_simulated_turtle"/>
+	<node pkg="turtlesim" type="turtle_teleop_key" name="my_turtle_control" output="screen"/>
+ 
+</launch>     
